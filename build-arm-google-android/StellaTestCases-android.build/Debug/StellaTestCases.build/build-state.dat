@@ -1,0 +1,492 @@
+TStellaTestCases
+v5
+r1
+cCheck dependencies
+cSymLink /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/libStellaTestCases.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so
+cCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+cCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+cCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+cCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+cCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.o /opt/StellaSDK/share/android/jni/android-main.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+cLd /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so normal i386
+cPBXCp /opt/StellaSDK/arm-google-android/usr/lib/libopenal.so StellaTestCases-android/jni/libopenal.so
+cPBXCp /opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so StellaTestCases-android/jni/libfreetype.so
+cPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so StellaTestCases-android/jni/libFoundation.so
+cPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so StellaTestCases-android/jni/libStellaGraphics.so
+cPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so StellaTestCases-android/jni/libStellaKit.so
+cPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so StellaTestCases-android/jni/libcocos2d.so
+cPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so StellaTestCases-android/jni/libStellaMedia.so
+cPBXCp StellaTestCases/Resources/Default.png StellaTestCases-android/assets/Resources/Default.png
+cPBXCp StellaTestCases/Resources/fps_images.png StellaTestCases-android/assets/Resources/fps_images.png
+cPBXCp StellaTestCases/Resources/Icon-72.png StellaTestCases-android/assets/Resources/Icon-72.png
+cPBXCp StellaTestCases/Resources/Icon-Small-50.png StellaTestCases-android/assets/Resources/Icon-Small-50.png
+cPBXCp StellaTestCases/Resources/Icon-Small.png StellaTestCases-android/assets/Resources/Icon-Small.png
+cPBXCp StellaTestCases/Resources/Icon-Small@2x.png StellaTestCases-android/assets/Resources/Icon-Small@2x.png
+cPBXCp StellaTestCases/Resources/Icon.png StellaTestCases-android/assets/Resources/Icon.png
+cPBXCp StellaTestCases/Resources/Icon@2x.png StellaTestCases-android/assets/Resources/Icon@2x.png
+cPBXCp StellaTestCases/Resources/iTunesArtwork StellaTestCases-android/assets/Resources/iTunesArtwork
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FF015DA00000000000000AA
+t1341134298
+s170
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Default.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-72.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-Small-50.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-Small.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-Small@2x.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon@2x.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/fps_images.png
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/iTunesArtwork
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libFoundation.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaGraphics.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaKit.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaMedia.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libcocos2d.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libfreetype.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libopenal.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m
+c000000005066A5A1000000000000117E
+t1348904353
+s4478
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m
+c000000005066A6460000000000000D7C
+t1348904518
+s3452
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Default.png
+c000000004E37FCC800000000000077AB
+t1312292040
+s30635
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-72.png
+c000000004E37FCC80000000000002C96
+t1312292040
+s11414
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-Small-50.png
+c000000004E37FCC80000000000001F2B
+t1312292040
+s7979
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-Small.png
+c000000004E37FCC8000000000000135C
+t1312292040
+s4956
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-Small@2x.png
+c000000004E37FCC800000000000024F9
+t1312292040
+s9465
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon.png
+c000000004E37FCC8000000000000246F
+t1312292040
+s9327
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon@2x.png
+c000000004E37FCC80000000000005375
+t1312292040
+s21365
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/fps_images.png
+c000000004E37FCC8000000000000183B
+t1312292040
+s6203
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/iTunesArtwork
+c000000004E37FCC8000000000000F21E
+t1312292040
+s61982
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m
+c000000005066A5A10000000000001157
+t1348904353
+s4439
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m
+c000000005066A5A10000000000000181
+t1348904353
+s385
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/libStellaTestCases.so
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.o
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/StellaTestCases.LinkFileList
+c000000005066A741000000000000035C
+t1348904769
+s860
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.o
+t2
+s0
+
+N/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so
+c000000005045EF4500000000002B51AF
+t1346760517
+s2838959
+
+N/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so
+c000000005046CE100000000000172287
+t1346817552
+s1516167
+
+N/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so
+c000000005046B59A00000000000D1CC7
+t1346811290
+s859335
+
+N/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so
+c000000005045F0B60000000000024AD7
+t1346760886
+s150231
+
+N/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so
+c000000005045F0610000000000151EF7
+t1346760801
+s1384183
+
+N/opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so
+c000000005045EF1100000000000455FB
+t1346760465
+s284155
+
+N/opt/StellaSDK/arm-google-android/usr/lib/libopenal.so
+c000000005045EF0A00000000000558CF
+t1346760458
+s350415
+
+N/opt/StellaSDK/share/android/jni/android-main.m
+c0000000050222EE300000000000001A6
+t1344417507
+s422
+
+CBuild AST from /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m
+r0
+
+CBuild AST from /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m
+r0
+
+CBuild AST from /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m
+r0
+
+CBuild AST from /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m
+r0
+
+CBuild AST from /opt/StellaSDK/share/android/jni/android-main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9f027cc1de16b641^e0f680c1de16b641^---0#1#0#--18"Check dependencies36"14D7829B-1F30-4FD9-BB2C-845F20E6E5C1-
+
+CCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+s370597569.524418
+e370597570.699546
+r1
+xCompileC
+xbuild-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.o
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.yeecco.compilers.android.clang.1.0
+owarning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m2e5886c1de16b641^c425b3c2de16b641^-101"warning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]1 warning generated.-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m0000000000000000^2590"CompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.o StellaTestCases/AppDelegate.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    setenv LANG en_US.US-ASCII    /opt/StellaSDK/bin/android-clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/include -I/opt/StellaSDK/arm-google-android/usr/include -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources/i386 -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources -F/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -F/opt/StellaSDK/arm-google-android/System/Library/Frameworks -stella_target arm-google-android -D__STELLA_NANDROID -D__STELLA_VERSION_MAX_ALLOWED -MMD -MT dependencies -MF /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.d -c /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/AppDelegate.m -o /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/AppDelegate.o36"F7ED6836-8EEA-4566-B5AA-272FFCFB3A23-
+
+CCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+s370597570.700800
+e370597571.694205
+r1
+xCompileC
+xbuild-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.o
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.yeecco.compilers.android.clang.1.0
+owarning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.mda8cb3c2de16b641^74d0b1c3de16b641^-101"warning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]1 warning generated.-0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m0000000000000000^2610"CompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.o StellaTestCases/HelloWorldLayer.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    setenv LANG en_US.US-ASCII    /opt/StellaSDK/bin/android-clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/include -I/opt/StellaSDK/arm-google-android/usr/include -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources/i386 -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources -F/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -F/opt/StellaSDK/arm-google-android/System/Library/Frameworks -stella_target arm-google-android -D__STELLA_NANDROID -D__STELLA_VERSION_MAX_ALLOWED -MMD -MT dependencies -MF /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.d -c /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/HelloWorldLayer.m -o /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/HelloWorldLayer.o36"16EFEB57-9D89-4C75-988A-2A8D68C80050-
+
+CCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+s370597570.562522
+e370597571.484901
+r1
+xCompileC
+xbuild-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.o
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.yeecco.compilers.android.clang.1.0
+owarning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m861f90c2de16b641^5d347cc3de16b641^-101"warning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]1 warning generated.-0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m0000000000000000^2625"CompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.o StellaTestCases/RootViewController.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    setenv LANG en_US.US-ASCII    /opt/StellaSDK/bin/android-clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/include -I/opt/StellaSDK/arm-google-android/usr/include -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources/i386 -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources -F/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -F/opt/StellaSDK/arm-google-android/System/Library/Frameworks -stella_target arm-google-android -D__STELLA_NANDROID -D__STELLA_VERSION_MAX_ALLOWED -MMD -MT dependencies -MF /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.d -c /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/RootViewController.m -o /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/RootViewController.o36"E51F7304-813F-4CB2-B949-274D3324BAEE-
+
+CCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.o /opt/StellaSDK/share/android/jni/android-main.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+s370597571.486233
+e370597572.309705
+r1
+xCompileC
+xbuild-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.o
+x/opt/StellaSDK/share/android/jni/android-main.m
+xnormal
+xi386
+xobjective-c
+xcom.yeecco.compilers.android.clang.1.0
+owarning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /opt/StellaSDK/share/android/jni/android-main.m18957cc3de16b641^ba4a4fc4de16b641^-101"warning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]1 warning generated.-0#0#0#-19%DVTDocumentLocation2@63"file://localhost/opt/StellaSDK/share/android/jni/android-main.m0000000000000000^2575"CompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.o /opt/StellaSDK/share/android/jni/android-main.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    setenv LANG en_US.US-ASCII    /opt/StellaSDK/bin/android-clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/include -I/opt/StellaSDK/arm-google-android/usr/include -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources/i386 -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources -F/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -F/opt/StellaSDK/arm-google-android/System/Library/Frameworks -stella_target arm-google-android -D__STELLA_NANDROID -D__STELLA_VERSION_MAX_ALLOWED -MMD -MT dependencies -MF /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.d -c /opt/StellaSDK/share/android/jni/android-main.m -o /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/android-main.o36"797B771A-07EE-4E9C-A58A-9CD0D738D6D9-
+
+CCompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0
+s370597569.524247
+e370597570.561276
+r1
+xCompileC
+xbuild-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.o
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m
+xnormal
+xi386
+xobjective-c
+xcom.yeecco.compilers.android.clang.1.0
+owarning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.mb85786c1de16b641^90c08fc2de16b641^-101"warning: unknown warning option '-Wreceiver-is-weak' [-Wunknown-warning-option]1 warning generated.-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m0000000000000000^2555"CompileC build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.o StellaTestCases/main.m normal i386 objective-c com.yeecco.compilers.android.clang.1.0    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    setenv LANG en_US.US-ASCII    /opt/StellaSDK/bin/android-clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/include -I/opt/StellaSDK/arm-google-android/usr/include -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers -I/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources/i386 -I/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/DerivedSources -F/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -F/opt/StellaSDK/arm-google-android/System/Library/Frameworks -stella_target arm-google-android -D__STELLA_NANDROID -D__STELLA_VERSION_MAX_ALLOWED -MMD -MT dependencies -MF /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.d -c /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/main.m -o /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/main.o36"AF17EF6C-1DF8-44F7-AD38-6C5E115DC247-
+
+CLd /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so normal i386
+s370597572.316485
+e370597572.545898
+r1
+xLd
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so682151c4de16b641^dfc18bc4de16b641^---0#0#0#--1364"Ld StellaTestCases-android/jni/libStellaTestCases.so normal i386    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /opt/StellaSDK/bin/android-clang -arch i386 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -L/opt/StellaSDK/arm-google-android/usr/lib -L/opt/StellaSDK/arm-google-android/System/Library/Frameworks -F/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug -F/opt/StellaSDK/arm-google-android/System/Library/Frameworks -filelist /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/StellaTestCases-android.build/Debug/StellaTestCases.build/Objects-normal/i386/StellaTestCases.LinkFileList -install_name /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so -mmacosx-version-min=10.8 -stella_target arm-google-android -lm -llog -landroid -lGLESv1_CM -lFoundation -lStellaGraphics -lStellaKit -Wl,--no-undefined -lopenal -lStellaMedia -lcocos2d -fobjc-link-runtime -single_module -compatibility_version 1 -current_version 1 -o /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so36"A6E08334-5235-49D0-A411-18E91B617482-
+
+CPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so StellaTestCases-android/jni/libFoundation.so
+s370597572.563235
+e370597572.612646
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so
+xStellaTestCases-android/jni/libFoundation.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy StellaTestCases-android/jni/libFoundation.sodd4590c4de16b641^7bd79cc4de16b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libFoundation.so000000000080d041^586"PBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so StellaTestCases-android/jni/libFoundation.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"AA0E1A98-8B45-4194-987C-BC99542EB56A-
+
+CPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so StellaTestCases-android/jni/libStellaGraphics.so
+s370597572.567078
+e370597572.589809
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so
+xStellaTestCases-android/jni/libStellaGraphics.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy StellaTestCases-android/jni/libStellaGraphics.so5c3b91c4de16b641^7eff96c4de16b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaGraphics.so000000000080d041^598"PBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so StellaTestCases-android/jni/libStellaGraphics.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"7CA75FCA-2403-4A08-BA7F-923D505D25A9-
+
+CPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so StellaTestCases-android/jni/libStellaKit.so
+s370597572.591260
+e370597572.617343
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so
+xStellaTestCases-android/jni/libStellaKit.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy StellaTestCases-android/jni/libStellaKit.so1e6e97c4de16b641^23119ec4de16b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaKit.so000000000080d041^583"PBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so StellaTestCases-android/jni/libStellaKit.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"D3E6A681-8D37-4A09-AA05-DC6A5F07058F-
+
+CPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so StellaTestCases-android/jni/libStellaMedia.so
+s370597572.618644
+e370597572.624216
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so
+xStellaTestCases-android/jni/libStellaMedia.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy StellaTestCases-android/jni/libStellaMedia.so2f6f9ec4de16b641^c4cf9fc4de16b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaMedia.so000000000080d041^589"PBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so StellaTestCases-android/jni/libStellaMedia.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"94D09C5F-D97E-484A-92B7-44657E738756-
+
+CPBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so StellaTestCases-android/jni/libcocos2d.so
+s370597572.613973
+e370597572.635940
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so
+xStellaTestCases-android/jni/libcocos2d.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy StellaTestCases-android/jni/libcocos2d.so3e3e9dc4de16b641^c4cca2c4de16b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libcocos2d.so000000000080d041^577"PBXCp /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so StellaTestCases-android/jni/libcocos2d.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"134BA3A5-11D1-4265-95D0-EB220731A931-
+
+CPBXCp /opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so StellaTestCases-android/jni/libfreetype.so
+s370597572.555977
+e370597572.565636
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so
+xStellaTestCases-android/jni/libfreetype.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy StellaTestCases-android/jni/libfreetype.so4e648ec4de16b641^d8d590c4de16b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libfreetype.so000000000080d041^544"PBXCp /opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so StellaTestCases-android/jni/libfreetype.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"FCE2EEB1-0BE3-45B4-B527-FE7F1A20DBE6-
+
+CPBXCp /opt/StellaSDK/arm-google-android/usr/lib/libopenal.so StellaTestCases-android/jni/libopenal.so
+s370597572.555065
+e370597572.561864
+r1
+xPBXCp
+x/opt/StellaSDK/arm-google-android/usr/lib/libopenal.so
+xStellaTestCases-android/jni/libopenal.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy StellaTestCases-android/jni/libopenal.so514c8ec4de16b641^a1d78fc4de16b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libopenal.so000000000080d041^538"PBXCp /opt/StellaSDK/arm-google-android/usr/lib/libopenal.so StellaTestCases-android/jni/libopenal.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /opt/StellaSDK/arm-google-android/usr/lib/libopenal.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni36"EA772AFA-C2D0-49F3-8E83-712A8992E450-
+
+CPBXCp StellaTestCases/Resources/Default.png StellaTestCases-android/assets/Resources/Default.png
+s370597572.644110
+e370597572.646683
+r1
+xPBXCp
+xStellaTestCases/Resources/Default.png
+xStellaTestCases-android/assets/Resources/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy StellaTestCases-android/assets/Resources/Default.png98f7a4c4de16b641^eb8ea5c4de16b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Default.png000000000080d041^583"PBXCp StellaTestCases/Resources/Default.png StellaTestCases-android/assets/Resources/Default.png    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Default.png /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"C180F941-A049-4245-9D97-B33F2FA15527-
+
+CPBXCp StellaTestCases/Resources/Icon-72.png StellaTestCases-android/assets/Resources/Icon-72.png
+s370597572.647788
+e370597572.650820
+r1
+xPBXCp
+xStellaTestCases/Resources/Icon-72.png
+xStellaTestCases-android/assets/Resources/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy StellaTestCases-android/assets/Resources/Icon-72.png26e2a5c4de16b641^279fa6c4de16b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-72.png000000000080d041^583"PBXCp StellaTestCases/Resources/Icon-72.png StellaTestCases-android/assets/Resources/Icon-72.png    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-72.png /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"D1C6CD97-D7F1-4F06-A69E-2FDC2888C394-
+
+CPBXCp StellaTestCases/Resources/Icon-Small-50.png StellaTestCases-android/assets/Resources/Icon-Small-50.png
+s370597572.648120
+e370597572.651225
+r1
+xPBXCp
+xStellaTestCases/Resources/Icon-Small-50.png
+xStellaTestCases-android/assets/Resources/Icon-Small-50.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy StellaTestCases-android/assets/Resources/Icon-Small-50.pngdcf6a5c4de16b641^c7b8a6c4de16b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-Small-50.png000000000080d041^601"PBXCp StellaTestCases/Resources/Icon-Small-50.png StellaTestCases-android/assets/Resources/Icon-Small-50.png    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-Small-50.png /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"50F55E72-40B3-42B7-8BF3-33EC30CEE4ED-
+
+CPBXCp StellaTestCases/Resources/Icon-Small.png StellaTestCases-android/assets/Resources/Icon-Small.png
+s370597572.651949
+e370597572.654624
+r1
+xPBXCp
+xStellaTestCases/Resources/Icon-Small.png
+xStellaTestCases-android/assets/Resources/Icon-Small.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy StellaTestCases-android/assets/Resources/Icon-Small.png63f2a6c4de16b641^af96a7c4de16b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-Small.png000000000080d041^592"PBXCp StellaTestCases/Resources/Icon-Small.png StellaTestCases-android/assets/Resources/Icon-Small.png    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-Small.png /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"D5595805-BF11-4FE1-B6FD-36D1CF8042F1-
+
+CPBXCp StellaTestCases/Resources/Icon-Small@2x.png StellaTestCases-android/assets/Resources/Icon-Small@2x.png
+s370597572.652270
+e370597572.655754
+r1
+xPBXCp
+xStellaTestCases/Resources/Icon-Small@2x.png
+xStellaTestCases-android/assets/Resources/Icon-Small@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy StellaTestCases-android/assets/Resources/Icon-Small@2x.png4a07a7c4de16b641^8f19a8c4de16b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon-Small@2x.png000000000080d041^607"PBXCp "StellaTestCases/Resources/Icon-Small@2x.png" "StellaTestCases-android/assets/Resources/Icon-Small@2x.png"    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon-Small@2x.png" /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"BEC2AB0C-AB6E-4988-8523-524981210F7E-
+
+CPBXCp StellaTestCases/Resources/Icon.png StellaTestCases-android/assets/Resources/Icon.png
+s370597572.656037
+e370597572.659909
+r1
+xPBXCp
+xStellaTestCases/Resources/Icon.png
+xStellaTestCases-android/assets/Resources/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy StellaTestCases-android/assets/Resources/Icon.png6e19a8c4de16b641^8e01a9c4de16b641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon.png000000000080d041^574"PBXCp StellaTestCases/Resources/Icon.png StellaTestCases-android/assets/Resources/Icon.png    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon.png /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"54185980-4468-416D-878D-873D73ED3137-
+
+CPBXCp StellaTestCases/Resources/Icon@2x.png StellaTestCases-android/assets/Resources/Icon@2x.png
+s370597572.656807
+e370597572.660065
+r1
+xPBXCp
+xStellaTestCases/Resources/Icon@2x.png
+xStellaTestCases-android/assets/Resources/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy StellaTestCases-android/assets/Resources/Icon@2x.pngb134a8c4de16b641^fb03a9c4de16b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/Icon@2x.png000000000080d041^589"PBXCp "StellaTestCases/Resources/Icon@2x.png" "StellaTestCases-android/assets/Resources/Icon@2x.png"    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/Icon@2x.png" /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"220E42ED-14B7-4223-A6D4-4DB3209CFD86-
+
+CPBXCp StellaTestCases/Resources/fps_images.png StellaTestCases-android/assets/Resources/fps_images.png
+s370597572.644569
+e370597572.647608
+r1
+xPBXCp
+xStellaTestCases/Resources/fps_images.png
+xStellaTestCases-android/assets/Resources/fps_images.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy StellaTestCases-android/assets/Resources/fps_images.pngdc0ea5c4de16b641^d1caa5c4de16b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/fps_images.png000000000080d041^592"PBXCp StellaTestCases/Resources/fps_images.png StellaTestCases-android/assets/Resources/fps_images.png    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/fps_images.png /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"D48372B9-4E6A-4CA8-861C-D76DB8666581-
+
+CPBXCp StellaTestCases/Resources/iTunesArtwork StellaTestCases-android/assets/Resources/iTunesArtwork
+s370597572.661150
+e370597572.663990
+r1
+xPBXCp
+xStellaTestCases/Resources/iTunesArtwork
+xStellaTestCases-android/assets/Resources/iTunesArtwork
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy StellaTestCases-android/assets/Resources/iTunesArtworkb551a9c4de16b641^d7fba9c4de16b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources/iTunesArtwork000000000080d041^589"PBXCp StellaTestCases/Resources/iTunesArtwork StellaTestCases-android/assets/Resources/iTunesArtwork    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases/Resources/iTunesArtwork /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/assets/Resources36"A3B70B4A-DE81-4FD4-8A29-60E54BFE7B5C-
+
+CSymLink /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/libStellaTestCases.so /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so
+s370597569.507290
+e370597569.515340
+r1
+xSymLink
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/libStellaTestCases.so
+x/Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Process /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/libStellaTestCases.so39ed81c1de16b641^f6ee83c1de16b641^---0#0#0#--399"SymLink build-arm-google-android/Debug/libStellaTestCases.so StellaTestCases-android/jni/libStellaTestCases.so    cd /Users/renekretzschmar/Desktop/github/StellaTestCases    /bin/ln -sf /Users/renekretzschmar/Desktop/github/StellaTestCases/StellaTestCases-android/jni/libStellaTestCases.so /Users/renekretzschmar/Desktop/github/StellaTestCases/build-arm-google-android/Debug/libStellaTestCases.so36"34AC2119-8353-4EF7-8B10-A2DCDD4C7163-
+

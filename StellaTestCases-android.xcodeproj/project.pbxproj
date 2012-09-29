@@ -1,0 +1,1548 @@
+{
+    archiveVersion = 1;
+    classes =     {
+    };
+    objectVersion = 46;
+    objects =     {
+        002207573a51c827fde50f99 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libStellaStore.so";
+            path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaStore.so";
+            sourceTree = "<absolute>";
+        };
+        0820fe3515f49620b9f5d5cb =         {
+            children =             (
+                ec627326f1255e11617930b9,
+                7544245706e48d6a824f6518,
+                0d49550fbe63dd4b9c0b6098,
+                e37c05cb8f426807403ece23,
+                e656c59691b08d3a8aec1f95,
+                e6f623214e08bb8fe89c25ce,
+                f92d86656634d4ce0b7bedce,
+                002207573a51c827fde50f99
+            );
+            isa = PBXGroup;
+            name = "StellaSDK frameworks";
+            sourceTree = "<group>";
+        };
+        0d49550fbe63dd4b9c0b6098 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libFoundation.so";
+            path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so";
+            sourceTree = "<absolute>";
+        };
+        25b44a4a724696b504dd469e =         {
+            fileRef = e656c59691b08d3a8aec1f95;
+            isa = PBXBuildFile;
+        };
+        3c4acfd48b2de09f3072670b =         {
+            fileRef = e37c05cb8f426807403ece23;
+            isa = PBXBuildFile;
+        };
+        46223f4650850934d2e5e7f4 =         {
+            fileRef = 7544245706e48d6a824f6518;
+            isa = PBXBuildFile;
+        };
+        49677deffccd644d82d66d3d =         {
+            children =             (
+            );
+            isa = PBXGroup;
+            name = "System frameworks";
+            sourceTree = "<group>";
+        };
+        65ec0b6cef9ee8b1bfe5e3aa =         {
+            fileRef = f92d86656634d4ce0b7bedce;
+            isa = PBXBuildFile;
+        };
+        69ab7802605e0ec5b0415ffe =         {
+            children =             (
+                d96bed0fb3eeacff6139c37f
+            );
+            isa = PBXGroup;
+            name = "Platform sources";
+            sourceTree = "<group>";
+        };
+        7544245706e48d6a824f6518 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libfreetype.so";
+            path = "/opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so";
+            sourceTree = "<absolute>";
+        };
+        78afd9e7a3bd16f4dd32722f =         {
+            buildActionMask = 2147483647;
+            dstPath = "";
+            dstSubfolderSpec = 6;
+            files =             (
+                dc24f37930704fc420a09737,
+                46223f4650850934d2e5e7f4,
+                ff79d10ee6952be3f5970842,
+                3c4acfd48b2de09f3072670b,
+                25b44a4a724696b504dd469e,
+                c25f9e6d7bbecfbf90830846,
+                65ec0b6cef9ee8b1bfe5e3aa
+            );
+            isa = PBXCopyFilesBuildPhase;
+            name = "Copy Files (libs)";
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        E8F5EEF01616DD1F00E88A97 =         {
+            children =             (
+                E8F5EF0F1616DD1F00E88A97,
+                E8F5EEFE1616DD1F00E88A97,
+                E8F5EEFC1616DD1F00E88A97,
+                e130444b9d1037ddd3abf8aa
+            );
+            isa = PBXGroup;
+            sourceTree = "<group>";
+        };
+        E8F5EEF21616DD1F00E88A97 =         {
+            attributes =             {
+                LastUpgradeCheck = 0440;
+            };
+            buildConfigurationList = E8F5EEF51616DD1F00E88A97;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            isa = PBXProject;
+            knownRegions =             (
+                en
+            );
+            mainGroup = E8F5EEF01616DD1F00E88A97;
+            productRefGroup = E8F5EEFC1616DD1F00E88A97;
+            projectDirPath = "";
+            projectRoot = "";
+            targets =             (
+                E8F5EEFA1616DD1F00E88A97
+            );
+        };
+        E8F5EEF51616DD1F00E88A97 =         {
+            buildConfigurations =             (
+                E8F5F06B1616DD2100E88A97,
+                E8F5F06C1616DD2100E88A97
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+            isa = XCConfigurationList;
+        };
+        E8F5EEF71616DD1F00E88A97 =         {
+            buildActionMask = 2147483647;
+            files =             (
+                E8F5EF281616DD1F00E88A97,
+                E8F5EF2B1616DD1F00E88A97,
+                E8F5EF2E1616DD1F00E88A97,
+                E8F5EF311616DD1F00E88A97,
+                E8F5EF341616DD1F00E88A97,
+                E8F5EF371616DD1F00E88A97,
+                E8F5EF3A1616DD1F00E88A97,
+                E8F5EF3D1616DD1F00E88A97,
+                E8F5EF401616DD1F00E88A97,
+                E8F5EF431616DD1F00E88A97,
+                E8F5EF461616DD1F00E88A97,
+                E8F5EF491616DD1F00E88A97,
+                E8F5EF4C1616DD1F00E88A97,
+                E8F5EF4F1616DD1F00E88A97,
+                E8F5EF521616DD1F00E88A97,
+                E8F5EF551616DD1F00E88A97,
+                E8F5EF581616DD1F00E88A97,
+                E8F5EF5C1616DD1F00E88A97,
+                E8F5EF5F1616DD1F00E88A97,
+                E8F5EF621616DD1F00E88A97,
+                E8F5EF651616DD2000E88A97,
+                E8F5EF681616DD2000E88A97,
+                E8F5EF6B1616DD2000E88A97,
+                E8F5EF6E1616DD2000E88A97,
+                E8F5EF711616DD2000E88A97,
+                E8F5EF741616DD2000E88A97,
+                E8F5EF781616DD2000E88A97,
+                E8F5EF7B1616DD2000E88A97,
+                E8F5EF7E1616DD2000E88A97,
+                E8F5EF811616DD2000E88A97,
+                E8F5EF841616DD2000E88A97,
+                E8F5EF871616DD2000E88A97,
+                E8F5EF8A1616DD2000E88A97,
+                E8F5EF8D1616DD2000E88A97,
+                E8F5EF901616DD2000E88A97,
+                E8F5EF931616DD2000E88A97,
+                E8F5EF971616DD2000E88A97,
+                E8F5EF9A1616DD2000E88A97,
+                E8F5EF9D1616DD2000E88A97,
+                E8F5EFA01616DD2000E88A97,
+                E8F5EFA31616DD2000E88A97,
+                E8F5EFA61616DD2000E88A97,
+                E8F5EFA91616DD2000E88A97,
+                E8F5EFAC1616DD2000E88A97,
+                E8F5EFAF1616DD2000E88A97,
+                E8F5EFB21616DD2000E88A97,
+                E8F5EFB51616DD2000E88A97,
+                E8F5EFB81616DD2000E88A97,
+                E8F5EFBB1616DD2000E88A97,
+                E8F5EFBE1616DD2000E88A97,
+                E8F5EFC11616DD2000E88A97,
+                E8F5EFC41616DD2000E88A97,
+                E8F5EFC71616DD2000E88A97,
+                E8F5EFCA1616DD2000E88A97,
+                E8F5EFCD1616DD2000E88A97,
+                E8F5EFD01616DD2000E88A97,
+                E8F5EFD41616DD2000E88A97,
+                E8F5EFDB1616DD2000E88A97,
+                E8F5EFDF1616DD2000E88A97,
+                E8F5EFE21616DD2000E88A97,
+                E8F5EFE51616DD2100E88A97,
+                E8F5EFE81616DD2100E88A97,
+                E8F5EFEB1616DD2100E88A97,
+                E8F5EFF01616DD2100E88A97,
+                E8F5EFF31616DD2100E88A97,
+                E8F5EFF61616DD2100E88A97,
+                E8F5EFF91616DD2100E88A97,
+                E8F5EFFC1616DD2100E88A97,
+                E8F5F0001616DD2100E88A97,
+                E8F5F0041616DD2100E88A97,
+                E8F5F0071616DD2100E88A97,
+                E8F5F0091616DD2100E88A97,
+                E8F5F00D1616DD2100E88A97,
+                E8F5F0111616DD2100E88A97,
+                E8F5F0141616DD2100E88A97,
+                E8F5F0191616DD2100E88A97,
+                E8F5F01E1616DD2100E88A97,
+                E8F5F0221616DD2100E88A97,
+                E8F5F0251616DD2100E88A97,
+                E8F5F0281616DD2100E88A97,
+                E8F5F02D1616DD2100E88A97,
+                E8F5F0301616DD2100E88A97,
+                E8F5F0331616DD2100E88A97,
+                E8F5F0381616DD2100E88A97,
+                E8F5F03C1616DD2100E88A97,
+                E8F5F03F1616DD2100E88A97,
+                E8F5F0431616DD2100E88A97,
+                E8F5F0461616DD2100E88A97,
+                E8F5F0491616DD2100E88A97,
+                E8F5F04E1616DD2100E88A97,
+                E8F5F0511616DD2100E88A97,
+                E8F5F0541616DD2100E88A97,
+                E8F5F0571616DD2100E88A97,
+                E8F5F05B1616DD2100E88A97,
+                E8F5F0601616DD2100E88A97,
+                E8F5F0631616DD2100E88A97,
+                E8F5F0661616DD2100E88A97,
+                E8F5F0691616DD2100E88A97,
+                d407dd75c3e587f091f29d69
+            );
+            isa = PBXSourcesBuildPhase;
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        E8F5EEF81616DD1F00E88A97 =         {
+            buildActionMask = 2147483647;
+            files =             (
+                E8F5EF001616DD1F00E88A97,
+                E8F5EF021616DD1F00E88A97,
+                E8F5EF041616DD1F00E88A97,
+                E8F5EF061616DD1F00E88A97,
+                E8F5EF081616DD1F00E88A97,
+                E8F5EF0A1616DD1F00E88A97,
+                E8F5EF0C1616DD1F00E88A97,
+                E8F5EF0E1616DD1F00E88A97
+            );
+            isa = PBXFrameworksBuildPhase;
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        E8F5EEF91616DD1F00E88A97 =         {
+            buildActionMask = 2147483647;
+            files =             (
+                E8F5EF121616DD1F00E88A97,
+                E8F5EF141616DD1F00E88A97,
+                E8F5EF161616DD1F00E88A97,
+                E8F5EF181616DD1F00E88A97,
+                E8F5EF1A1616DD1F00E88A97,
+                E8F5EF1C1616DD1F00E88A97,
+                E8F5EF1E1616DD1F00E88A97,
+                E8F5EF201616DD1F00E88A97,
+                E8F5EF231616DD1F00E88A97
+            );
+            isa = PBXResourcesBuildPhase;
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        E8F5EEFA1616DD1F00E88A97 =         {
+            buildConfigurationList = E8F5F06D1616DD2100E88A97;
+            buildPhases =             (
+                E8F5EEF71616DD1F00E88A97,
+                78afd9e7a3bd16f4dd32722f,
+                c4c3c571baff7de518e1a772
+            );
+            buildRules =             (
+            );
+            isa = PBXNativeTarget;
+            name = StellaTestCases;
+            productName = StellaTestCases;
+            productReference = E8F5EEFB1616DD1F00E88A97;
+            productType = "com.apple.product-type.library.dynamic";
+        };
+        E8F5EEFB1616DD1F00E88A97 =         {
+            explicitFileType = "compiled.mach-o.dylib";
+            includeInIndex = 0;
+            isa = PBXFileReference;
+            path = "libStellaTestCases.so";
+            sourceTree = "BUILT_PRODUCTS_DIR";
+        };
+        E8F5EEFC1616DD1F00E88A97 =         {
+            children =             (
+                E8F5EEFB1616DD1F00E88A97
+            );
+            isa = PBXGroup;
+            name = Products;
+            sourceTree = "<group>";
+        };
+        E8F5EEFE1616DD1F00E88A97 =         {
+            children =             (
+                E8F5EEFF1616DD1F00E88A97,
+                E8F5EF011616DD1F00E88A97,
+                E8F5EF031616DD1F00E88A97,
+                E8F5EF051616DD1F00E88A97,
+                E8F5EF071616DD1F00E88A97,
+                E8F5EF091616DD1F00E88A97,
+                E8F5EF0B1616DD1F00E88A97,
+                E8F5EF0D1616DD1F00E88A97
+            );
+            isa = PBXGroup;
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        E8F5EEFF1616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "QuartzCore.framework";
+            path = "System/Library/Frameworks/QuartzCore.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF001616DD1F00E88A97 =         {
+            fileRef = E8F5EEFF1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF011616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "OpenGLES.framework";
+            path = "System/Library/Frameworks/OpenGLES.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF021616DD1F00E88A97 =         {
+            fileRef = E8F5EF011616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF031616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "OpenAL.framework";
+            path = "System/Library/Frameworks/OpenAL.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF041616DD1F00E88A97 =         {
+            fileRef = E8F5EF031616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF051616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "AudioToolbox.framework";
+            path = "System/Library/Frameworks/AudioToolbox.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF061616DD1F00E88A97 =         {
+            fileRef = E8F5EF051616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF071616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "AVFoundation.framework";
+            path = "System/Library/Frameworks/AVFoundation.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF081616DD1F00E88A97 =         {
+            fileRef = E8F5EF071616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF091616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "UIKit.framework";
+            path = "System/Library/Frameworks/UIKit.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF0A1616DD1F00E88A97 =         {
+            fileRef = E8F5EF091616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF0B1616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "Foundation.framework";
+            path = "System/Library/Frameworks/Foundation.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF0C1616DD1F00E88A97 =         {
+            fileRef = E8F5EF0B1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF0D1616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "wrapper.framework";
+            name = "CoreGraphics.framework";
+            path = "System/Library/Frameworks/CoreGraphics.framework";
+            sourceTree = SDKROOT;
+        };
+        E8F5EF0E1616DD1F00E88A97 =         {
+            fileRef = E8F5EF0D1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF0F1616DD1F00E88A97 =         {
+            children =             (
+                E8F5F0611616DD2100E88A97,
+                E8F5F0621616DD2100E88A97,
+                E8F5F0641616DD2100E88A97,
+                E8F5F0651616DD2100E88A97,
+                E8F5F0671616DD2100E88A97,
+                E8F5F0681616DD2100E88A97,
+                E8F5F06A1616DD2100E88A97,
+                E8F5EF101616DD1F00E88A97,
+                E8F5EF241616DD1F00E88A97,
+                E8F5F05D1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            path = StellaTestCases;
+            sourceTree = "<group>";
+        };
+        E8F5EF101616DD1F00E88A97 =         {
+            children =             (
+                E8F5EF111616DD1F00E88A97,
+                E8F5EF131616DD1F00E88A97,
+                E8F5EF151616DD1F00E88A97,
+                E8F5EF171616DD1F00E88A97,
+                E8F5EF191616DD1F00E88A97,
+                E8F5EF1B1616DD1F00E88A97,
+                E8F5EF1D1616DD1F00E88A97,
+                E8F5EF1F1616DD1F00E88A97,
+                E8F5EF211616DD1F00E88A97,
+                E8F5EF221616DD1F00E88A97
+            );
+            isa = PBXGroup;
+            name = Resources;
+            sourceTree = "<group>";
+        };
+        E8F5EF111616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Default.png";
+            path = "Resources/Default.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF121616DD1F00E88A97 =         {
+            fileRef = E8F5EF111616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF131616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "fps_images.png";
+            path = "Resources/fps_images.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF141616DD1F00E88A97 =         {
+            fileRef = E8F5EF131616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF151616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Icon-72.png";
+            path = "Resources/Icon-72.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF161616DD1F00E88A97 =         {
+            fileRef = E8F5EF151616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF171616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Icon-Small-50.png";
+            path = "Resources/Icon-Small-50.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF181616DD1F00E88A97 =         {
+            fileRef = E8F5EF171616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF191616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Icon-Small.png";
+            path = "Resources/Icon-Small.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF1A1616DD1F00E88A97 =         {
+            fileRef = E8F5EF191616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF1B1616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Icon-Small@2x.png";
+            path = "Resources/Icon-Small@2x.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF1C1616DD1F00E88A97 =         {
+            fileRef = E8F5EF1B1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF1D1616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Icon.png";
+            path = "Resources/Icon.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF1E1616DD1F00E88A97 =         {
+            fileRef = E8F5EF1D1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF1F1616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "image.png";
+            name = "Icon@2x.png";
+            path = "Resources/Icon@2x.png";
+            sourceTree = "<group>";
+        };
+        E8F5EF201616DD1F00E88A97 =         {
+            fileRef = E8F5EF1F1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF211616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "text.plist.xml";
+            name = "Info.plist";
+            path = "Resources/Info.plist";
+            sourceTree = "<group>";
+        };
+        E8F5EF221616DD1F00E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = iTunesArtwork;
+            path = "Resources/iTunesArtwork";
+            sourceTree = "<group>";
+        };
+        E8F5EF231616DD1F00E88A97 =         {
+            fileRef = E8F5EF221616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF241616DD1F00E88A97 =         {
+            children =             (
+                E8F5F01A1616DD2100E88A97,
+                E8F5F0291616DD2100E88A97,
+                E8F5F0341616DD2100E88A97,
+                E8F5F05C1616DD2100E88A97,
+                E8F5EF251616DD1F00E88A97,
+                E8F5F01B1616DD2100E88A97,
+                E8F5F02A1616DD2100E88A97,
+                E8F5F0351616DD2100E88A97,
+                E8F5F04B1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = libs;
+            sourceTree = "<group>";
+        };
+        E8F5EF251616DD1F00E88A97 =         {
+            children =             (
+                E8F5EF261616DD1F00E88A97,
+                E8F5EF271616DD1F00E88A97,
+                E8F5EF291616DD1F00E88A97,
+                E8F5EF2A1616DD1F00E88A97,
+                E8F5EF2C1616DD1F00E88A97,
+                E8F5EF2D1616DD1F00E88A97,
+                E8F5EF2F1616DD1F00E88A97,
+                E8F5EF301616DD1F00E88A97,
+                E8F5EF321616DD1F00E88A97,
+                E8F5EF331616DD1F00E88A97,
+                E8F5EF351616DD1F00E88A97,
+                E8F5EF361616DD1F00E88A97,
+                E8F5EF381616DD1F00E88A97,
+                E8F5EF391616DD1F00E88A97,
+                E8F5EF3B1616DD1F00E88A97,
+                E8F5EF3C1616DD1F00E88A97,
+                E8F5EF3E1616DD1F00E88A97,
+                E8F5EF3F1616DD1F00E88A97,
+                E8F5EF411616DD1F00E88A97,
+                E8F5EF421616DD1F00E88A97,
+                E8F5EF441616DD1F00E88A97,
+                E8F5EF451616DD1F00E88A97,
+                E8F5EF471616DD1F00E88A97,
+                E8F5EF481616DD1F00E88A97,
+                E8F5EF4A1616DD1F00E88A97,
+                E8F5EF4B1616DD1F00E88A97,
+                E8F5EF4D1616DD1F00E88A97,
+                E8F5EF4E1616DD1F00E88A97,
+                E8F5EF501616DD1F00E88A97,
+                E8F5EF511616DD1F00E88A97,
+                E8F5EF531616DD1F00E88A97,
+                E8F5EF541616DD1F00E88A97,
+                E8F5EF561616DD1F00E88A97,
+                E8F5EF571616DD1F00E88A97,
+                E8F5EF591616DD1F00E88A97,
+                E8F5EF5A1616DD1F00E88A97,
+                E8F5EF5B1616DD1F00E88A97,
+                E8F5EF5D1616DD1F00E88A97,
+                E8F5EF5E1616DD1F00E88A97,
+                E8F5EF601616DD1F00E88A97,
+                E8F5EF611616DD1F00E88A97,
+                E8F5EF631616DD1F00E88A97,
+                E8F5EF641616DD2000E88A97,
+                E8F5EF661616DD2000E88A97,
+                E8F5EF671616DD2000E88A97,
+                E8F5EF691616DD2000E88A97,
+                E8F5EF6A1616DD2000E88A97,
+                E8F5EF6C1616DD2000E88A97,
+                E8F5EF6D1616DD2000E88A97,
+                E8F5EF6F1616DD2000E88A97,
+                E8F5EF701616DD2000E88A97,
+                E8F5EF721616DD2000E88A97,
+                E8F5EF731616DD2000E88A97,
+                E8F5EF751616DD2000E88A97,
+                E8F5EF761616DD2000E88A97,
+                E8F5EF771616DD2000E88A97,
+                E8F5EF791616DD2000E88A97,
+                E8F5EF7A1616DD2000E88A97,
+                E8F5EF7C1616DD2000E88A97,
+                E8F5EF7D1616DD2000E88A97,
+                E8F5EF7F1616DD2000E88A97,
+                E8F5EF801616DD2000E88A97,
+                E8F5EF821616DD2000E88A97,
+                E8F5EF831616DD2000E88A97,
+                E8F5EF851616DD2000E88A97,
+                E8F5EF861616DD2000E88A97,
+                E8F5EF881616DD2000E88A97,
+                E8F5EF891616DD2000E88A97,
+                E8F5EF8B1616DD2000E88A97,
+                E8F5EF8C1616DD2000E88A97,
+                E8F5EF8E1616DD2000E88A97,
+                E8F5EF8F1616DD2000E88A97,
+                E8F5EF911616DD2000E88A97,
+                E8F5EF921616DD2000E88A97,
+                E8F5EF941616DD2000E88A97,
+                E8F5EF951616DD2000E88A97,
+                E8F5EF961616DD2000E88A97,
+                E8F5EF981616DD2000E88A97,
+                E8F5EF991616DD2000E88A97,
+                E8F5EF9B1616DD2000E88A97,
+                E8F5EF9C1616DD2000E88A97,
+                E8F5EF9E1616DD2000E88A97,
+                E8F5EF9F1616DD2000E88A97,
+                E8F5EFA11616DD2000E88A97,
+                E8F5EFA21616DD2000E88A97,
+                E8F5EFA41616DD2000E88A97,
+                E8F5EFA51616DD2000E88A97,
+                E8F5EFA71616DD2000E88A97,
+                E8F5EFA81616DD2000E88A97,
+                E8F5EFAA1616DD2000E88A97,
+                E8F5EFAB1616DD2000E88A97,
+                E8F5EFAD1616DD2000E88A97,
+                E8F5EFAE1616DD2000E88A97,
+                E8F5EFB01616DD2000E88A97,
+                E8F5EFB11616DD2000E88A97,
+                E8F5EFB31616DD2000E88A97,
+                E8F5EFB41616DD2000E88A97,
+                E8F5EFB61616DD2000E88A97,
+                E8F5EFB71616DD2000E88A97,
+                E8F5EFB91616DD2000E88A97,
+                E8F5EFBA1616DD2000E88A97,
+                E8F5EFBC1616DD2000E88A97,
+                E8F5EFBD1616DD2000E88A97,
+                E8F5EFBF1616DD2000E88A97,
+                E8F5EFC01616DD2000E88A97,
+                E8F5EFC21616DD2000E88A97,
+                E8F5EFC31616DD2000E88A97,
+                E8F5EFC51616DD2000E88A97,
+                E8F5EFC61616DD2000E88A97,
+                E8F5EFC81616DD2000E88A97,
+                E8F5EFC91616DD2000E88A97,
+                E8F5EFCB1616DD2000E88A97,
+                E8F5EFCC1616DD2000E88A97,
+                E8F5EFCE1616DD2000E88A97,
+                E8F5EFCF1616DD2000E88A97,
+                E8F5EFD11616DD2000E88A97,
+                E8F5EFD21616DD2000E88A97,
+                E8F5EFD31616DD2000E88A97,
+                E8F5EFD51616DD2000E88A97,
+                E8F5EFFA1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = cocos2d;
+            sourceTree = "<group>";
+        };
+        E8F5EF281616DD1F00E88A97 =         {
+            fileRef = E8F5EF271616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF2B1616DD1F00E88A97 =         {
+            fileRef = E8F5EF2A1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF2E1616DD1F00E88A97 =         {
+            fileRef = E8F5EF2D1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF311616DD1F00E88A97 =         {
+            fileRef = E8F5EF301616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF341616DD1F00E88A97 =         {
+            fileRef = E8F5EF331616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF371616DD1F00E88A97 =         {
+            fileRef = E8F5EF361616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF3A1616DD1F00E88A97 =         {
+            fileRef = E8F5EF391616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF3D1616DD1F00E88A97 =         {
+            fileRef = E8F5EF3C1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF401616DD1F00E88A97 =         {
+            fileRef = E8F5EF3F1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF431616DD1F00E88A97 =         {
+            fileRef = E8F5EF421616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF461616DD1F00E88A97 =         {
+            fileRef = E8F5EF451616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF491616DD1F00E88A97 =         {
+            fileRef = E8F5EF481616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF4C1616DD1F00E88A97 =         {
+            fileRef = E8F5EF4B1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF4F1616DD1F00E88A97 =         {
+            fileRef = E8F5EF4E1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF521616DD1F00E88A97 =         {
+            fileRef = E8F5EF511616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF551616DD1F00E88A97 =         {
+            fileRef = E8F5EF541616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF581616DD1F00E88A97 =         {
+            fileRef = E8F5EF571616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF5C1616DD1F00E88A97 =         {
+            fileRef = E8F5EF5B1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF5F1616DD1F00E88A97 =         {
+            fileRef = E8F5EF5E1616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF621616DD1F00E88A97 =         {
+            fileRef = E8F5EF611616DD1F00E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF651616DD2000E88A97 =         {
+            fileRef = E8F5EF641616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF681616DD2000E88A97 =         {
+            fileRef = E8F5EF671616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF6B1616DD2000E88A97 =         {
+            fileRef = E8F5EF6A1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF6E1616DD2000E88A97 =         {
+            fileRef = E8F5EF6D1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF711616DD2000E88A97 =         {
+            fileRef = E8F5EF701616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF741616DD2000E88A97 =         {
+            fileRef = E8F5EF731616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF781616DD2000E88A97 =         {
+            fileRef = E8F5EF771616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF7B1616DD2000E88A97 =         {
+            fileRef = E8F5EF7A1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF7E1616DD2000E88A97 =         {
+            fileRef = E8F5EF7D1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF811616DD2000E88A97 =         {
+            fileRef = E8F5EF801616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF841616DD2000E88A97 =         {
+            fileRef = E8F5EF831616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF871616DD2000E88A97 =         {
+            fileRef = E8F5EF861616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF8A1616DD2000E88A97 =         {
+            fileRef = E8F5EF891616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF8D1616DD2000E88A97 =         {
+            fileRef = E8F5EF8C1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF901616DD2000E88A97 =         {
+            fileRef = E8F5EF8F1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF931616DD2000E88A97 =         {
+            fileRef = E8F5EF921616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF971616DD2000E88A97 =         {
+            fileRef = E8F5EF961616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF9A1616DD2000E88A97 =         {
+            fileRef = E8F5EF991616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EF9D1616DD2000E88A97 =         {
+            fileRef = E8F5EF9C1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFA01616DD2000E88A97 =         {
+            fileRef = E8F5EF9F1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFA31616DD2000E88A97 =         {
+            fileRef = E8F5EFA21616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFA61616DD2000E88A97 =         {
+            fileRef = E8F5EFA51616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFA91616DD2000E88A97 =         {
+            fileRef = E8F5EFA81616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFAC1616DD2000E88A97 =         {
+            fileRef = E8F5EFAB1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFAF1616DD2000E88A97 =         {
+            fileRef = E8F5EFAE1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFB21616DD2000E88A97 =         {
+            fileRef = E8F5EFB11616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFB51616DD2000E88A97 =         {
+            fileRef = E8F5EFB41616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFB81616DD2000E88A97 =         {
+            fileRef = E8F5EFB71616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFBB1616DD2000E88A97 =         {
+            fileRef = E8F5EFBA1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFBE1616DD2000E88A97 =         {
+            fileRef = E8F5EFBD1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFC11616DD2000E88A97 =         {
+            fileRef = E8F5EFC01616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFC41616DD2000E88A97 =         {
+            fileRef = E8F5EFC31616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFC71616DD2000E88A97 =         {
+            fileRef = E8F5EFC61616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFCA1616DD2000E88A97 =         {
+            fileRef = E8F5EFC91616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFCD1616DD2000E88A97 =         {
+            fileRef = E8F5EFCC1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFD01616DD2000E88A97 =         {
+            fileRef = E8F5EFCF1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFD41616DD2000E88A97 =         {
+            fileRef = E8F5EFD31616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFD51616DD2000E88A97 =         {
+            children =             (
+                E8F5EFD61616DD2000E88A97,
+                E8F5EFD71616DD2000E88A97,
+                E8F5EFD81616DD2000E88A97,
+                E8F5EFED1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = Platforms;
+            sourceTree = "<group>";
+        };
+        E8F5EFD81616DD2000E88A97 =         {
+            children =             (
+                E8F5EFD91616DD2000E88A97,
+                E8F5EFDA1616DD2000E88A97,
+                E8F5EFDC1616DD2000E88A97,
+                E8F5EFDD1616DD2000E88A97,
+                E8F5EFDE1616DD2000E88A97,
+                E8F5EFE01616DD2000E88A97,
+                E8F5EFE11616DD2000E88A97,
+                E8F5EFE31616DD2000E88A97,
+                E8F5EFE41616DD2100E88A97,
+                E8F5EFE61616DD2100E88A97,
+                E8F5EFE71616DD2100E88A97,
+                E8F5EFE91616DD2100E88A97,
+                E8F5EFEA1616DD2100E88A97,
+                E8F5EFEC1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = iOS;
+            sourceTree = "<group>";
+        };
+        E8F5EFDB1616DD2000E88A97 =         {
+            fileRef = E8F5EFDA1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFDF1616DD2000E88A97 =         {
+            fileRef = E8F5EFDE1616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFE21616DD2000E88A97 =         {
+            fileRef = E8F5EFE11616DD2000E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFE51616DD2100E88A97 =         {
+            fileRef = E8F5EFE41616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFE81616DD2100E88A97 =         {
+            fileRef = E8F5EFE71616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFEB1616DD2100E88A97 =         {
+            fileRef = E8F5EFEA1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFED1616DD2100E88A97 =         {
+            children =             (
+                E8F5EFEE1616DD2100E88A97,
+                E8F5EFEF1616DD2100E88A97,
+                E8F5EFF11616DD2100E88A97,
+                E8F5EFF21616DD2100E88A97,
+                E8F5EFF41616DD2100E88A97,
+                E8F5EFF51616DD2100E88A97,
+                E8F5EFF71616DD2100E88A97,
+                E8F5EFF81616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = Mac;
+            sourceTree = "<group>";
+        };
+        E8F5EFF01616DD2100E88A97 =         {
+            fileRef = E8F5EFEF1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFF31616DD2100E88A97 =         {
+            fileRef = E8F5EFF21616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFF61616DD2100E88A97 =         {
+            fileRef = E8F5EFF51616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFF91616DD2100E88A97 =         {
+            fileRef = E8F5EFF81616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5EFFA1616DD2100E88A97 =         {
+            children =             (
+                E8F5EFFB1616DD2100E88A97,
+                E8F5EFFD1616DD2100E88A97,
+                E8F5EFFE1616DD2100E88A97,
+                E8F5EFFF1616DD2100E88A97,
+                E8F5F0011616DD2100E88A97,
+                E8F5F0021616DD2100E88A97,
+                E8F5F0031616DD2100E88A97,
+                E8F5F0051616DD2100E88A97,
+                E8F5F0061616DD2100E88A97,
+                E8F5F0081616DD2100E88A97,
+                E8F5F00A1616DD2100E88A97,
+                E8F5F00B1616DD2100E88A97,
+                E8F5F00C1616DD2100E88A97,
+                E8F5F00E1616DD2100E88A97,
+                E8F5F00F1616DD2100E88A97,
+                E8F5F0101616DD2100E88A97,
+                E8F5F0121616DD2100E88A97,
+                E8F5F0131616DD2100E88A97,
+                E8F5F0151616DD2100E88A97,
+                E8F5F0161616DD2100E88A97,
+                E8F5F0171616DD2100E88A97,
+                E8F5F0181616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = Support;
+            sourceTree = "<group>";
+        };
+        E8F5EFFC1616DD2100E88A97 =         {
+            fileRef = E8F5EFFB1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0001616DD2100E88A97 =         {
+            fileRef = E8F5EFFF1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0041616DD2100E88A97 =         {
+            fileRef = E8F5F0031616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0071616DD2100E88A97 =         {
+            fileRef = E8F5F0061616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0091616DD2100E88A97 =         {
+            fileRef = E8F5F0081616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F00D1616DD2100E88A97 =         {
+            fileRef = E8F5F00C1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0111616DD2100E88A97 =         {
+            fileRef = E8F5F0101616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0141616DD2100E88A97 =         {
+            fileRef = E8F5F0131616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0191616DD2100E88A97 =         {
+            fileRef = E8F5F0181616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F01A1616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = text;
+            name = "LICENSE_cocos2d.txt";
+            path = "libs/LICENSE_cocos2d.txt";
+            sourceTree = "<group>";
+        };
+        E8F5F01B1616DD2100E88A97 =         {
+            children =             (
+                E8F5F01C1616DD2100E88A97,
+                E8F5F01D1616DD2100E88A97,
+                E8F5F01F1616DD2100E88A97,
+                E8F5F0201616DD2100E88A97,
+                E8F5F0211616DD2100E88A97,
+                E8F5F0231616DD2100E88A97,
+                E8F5F0241616DD2100E88A97,
+                E8F5F0261616DD2100E88A97,
+                E8F5F0271616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = CocosDenshion;
+            sourceTree = "<group>";
+        };
+        E8F5F01E1616DD2100E88A97 =         {
+            fileRef = E8F5F01D1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0221616DD2100E88A97 =         {
+            fileRef = E8F5F0211616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0251616DD2100E88A97 =         {
+            fileRef = E8F5F0241616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0281616DD2100E88A97 =         {
+            fileRef = E8F5F0271616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0291616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = text;
+            name = "LICENSE_CocosDenshion.txt";
+            path = "libs/LICENSE_CocosDenshion.txt";
+            sourceTree = "<group>";
+        };
+        E8F5F02A1616DD2100E88A97 =         {
+            children =             (
+                E8F5F02B1616DD2100E88A97,
+                E8F5F02C1616DD2100E88A97,
+                E8F5F02E1616DD2100E88A97,
+                E8F5F02F1616DD2100E88A97,
+                E8F5F0311616DD2100E88A97,
+                E8F5F0321616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = cocoslive;
+            sourceTree = "<group>";
+        };
+        E8F5F02D1616DD2100E88A97 =         {
+            fileRef = E8F5F02C1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0301616DD2100E88A97 =         {
+            fileRef = E8F5F02F1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0331616DD2100E88A97 =         {
+            fileRef = E8F5F0321616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0341616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = text;
+            name = "LICENSE_TouchJSON.txt";
+            path = "libs/LICENSE_TouchJSON.txt";
+            sourceTree = "<group>";
+        };
+        E8F5F0351616DD2100E88A97 =         {
+            children =             (
+                E8F5F0361616DD2100E88A97,
+                E8F5F0371616DD2100E88A97,
+                E8F5F0391616DD2100E88A97,
+                E8F5F0401616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = TouchJSON;
+            sourceTree = "<group>";
+        };
+        E8F5F0381616DD2100E88A97 =         {
+            fileRef = E8F5F0371616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0391616DD2100E88A97 =         {
+            children =             (
+                E8F5F03A1616DD2100E88A97,
+                E8F5F03B1616DD2100E88A97,
+                E8F5F03D1616DD2100E88A97,
+                E8F5F03E1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = Extensions;
+            sourceTree = "<group>";
+        };
+        E8F5F03C1616DD2100E88A97 =         {
+            fileRef = E8F5F03B1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F03F1616DD2100E88A97 =         {
+            fileRef = E8F5F03E1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0401616DD2100E88A97 =         {
+            children =             (
+                E8F5F0411616DD2100E88A97,
+                E8F5F0421616DD2100E88A97,
+                E8F5F0441616DD2100E88A97,
+                E8F5F0451616DD2100E88A97,
+                E8F5F0471616DD2100E88A97,
+                E8F5F0481616DD2100E88A97,
+                E8F5F04A1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = JSON;
+            sourceTree = "<group>";
+        };
+        E8F5F0431616DD2100E88A97 =         {
+            fileRef = E8F5F0421616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0461616DD2100E88A97 =         {
+            fileRef = E8F5F0451616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0491616DD2100E88A97 =         {
+            fileRef = E8F5F0481616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F04B1616DD2100E88A97 =         {
+            children =             (
+                E8F5F04C1616DD2100E88A97,
+                E8F5F04D1616DD2100E88A97,
+                E8F5F04F1616DD2100E88A97,
+                E8F5F0501616DD2100E88A97,
+                E8F5F0521616DD2100E88A97,
+                E8F5F0531616DD2100E88A97,
+                E8F5F0551616DD2100E88A97,
+                E8F5F0561616DD2100E88A97,
+                E8F5F0581616DD2100E88A97,
+                E8F5F0591616DD2100E88A97,
+                E8F5F05A1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = FontLabel;
+            sourceTree = "<group>";
+        };
+        E8F5F04E1616DD2100E88A97 =         {
+            fileRef = E8F5F04D1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0511616DD2100E88A97 =         {
+            fileRef = E8F5F0501616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0541616DD2100E88A97 =         {
+            fileRef = E8F5F0531616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0571616DD2100E88A97 =         {
+            fileRef = E8F5F0561616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F05B1616DD2100E88A97 =         {
+            fileRef = E8F5F05A1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F05C1616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = text;
+            name = "LICENSE_FontLabel.txt";
+            path = "libs/LICENSE_FontLabel.txt";
+            sourceTree = "<group>";
+        };
+        E8F5F05D1616DD2100E88A97 =         {
+            children =             (
+                E8F5F05E1616DD2100E88A97,
+                E8F5F05F1616DD2100E88A97
+            );
+            isa = PBXGroup;
+            name = "Supporting Files";
+            sourceTree = "<group>";
+        };
+        E8F5F05E1616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.h";
+            path = "Prefix.pch";
+            sourceTree = "<group>";
+        };
+        E8F5F05F1616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.objc";
+            path = "main.m";
+            sourceTree = "<group>";
+        };
+        E8F5F0601616DD2100E88A97 =         {
+            fileRef = E8F5F05F1616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0611616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.h";
+            path = "AppDelegate.h";
+            sourceTree = "<group>";
+        };
+        E8F5F0621616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.objc";
+            path = "AppDelegate.m";
+            sourceTree = "<group>";
+        };
+        E8F5F0631616DD2100E88A97 =         {
+            fileRef = E8F5F0621616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0641616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.h";
+            path = "RootViewController.h";
+            sourceTree = "<group>";
+        };
+        E8F5F0651616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.objc";
+            path = "RootViewController.m";
+            sourceTree = "<group>";
+        };
+        E8F5F0661616DD2100E88A97 =         {
+            fileRef = E8F5F0651616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F0671616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.h";
+            path = "HelloWorldLayer.h";
+            sourceTree = "<group>";
+        };
+        E8F5F0681616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.objc";
+            path = "HelloWorldLayer.m";
+            sourceTree = "<group>";
+        };
+        E8F5F0691616DD2100E88A97 =         {
+            fileRef = E8F5F0681616DD2100E88A97;
+            isa = PBXBuildFile;
+        };
+        E8F5F06A1616DD2100E88A97 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.h";
+            path = "GameConfig.h";
+            sourceTree = "<group>";
+        };
+        E8F5F06B1616DD2100E88A97 =         {
+            buildSettings =             {
+                "DEPLOYMENT_LOCATION" = YES;
+                DSTROOT = "/";
+                "GCC_C_LANGUAGE_STANDARD" = gnu99;
+                "GCC_OPTIMIZATION_LEVEL" = 0;
+                "GCC_PREPROCESSOR_DEFINITIONS" =                 (
+                    DEBUG,
+                    "COCOS2D_DEBUG=1"
+                );
+                "GCC_SYMBOLS_PRIVATE_EXTERN" = NO;
+                "GCC_VERSION" = "com.yeecco.compilers.android.clang.1.0";
+                "GCC_WARN_ABOUT_RETURN_TYPE" = YES;
+                "GCC_WARN_UNUSED_VARIABLE" = YES;
+                SDKROOT = macosx;
+                SYMROOT = "build-arm-google-android";
+            };
+            isa = XCBuildConfiguration;
+            name = Debug;
+        };
+        E8F5F06C1616DD2100E88A97 =         {
+            buildSettings =             {
+                "DEPLOYMENT_LOCATION" = YES;
+                DSTROOT = "/";
+                "GCC_C_LANGUAGE_STANDARD" = gnu99;
+                "GCC_PREPROCESSOR_DEFINITIONS" = NDEBUG;
+                "GCC_VERSION" = "com.yeecco.compilers.android.clang.1.0";
+                "GCC_WARN_ABOUT_RETURN_TYPE" = YES;
+                "GCC_WARN_UNUSED_VARIABLE" = YES;
+                "OTHER_CFLAGS" = "-DNS_BLOCK_ASSERTIONS=1";
+                SDKROOT = macosx;
+                SYMROOT = "build-arm-google-android";
+            };
+            isa = XCBuildConfiguration;
+            name = Release;
+        };
+        E8F5F06D1616DD2100E88A97 =         {
+            buildConfigurations =             (
+                E8F5F06E1616DD2100E88A97,
+                E8F5F06F1616DD2100E88A97
+            );
+            defaultConfigurationIsVisible = 0;
+            isa = XCConfigurationList;
+        };
+        E8F5F06E1616DD2100E88A97 =         {
+            buildSettings =             {
+                "EXECUTABLE_EXTENSION" = so;
+                "EXECUTABLE_PREFIX" = lib;
+                "FRAMEWORK_SEARCH_PATHS" = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks";
+                "HEADER_SEARCH_PATHS" =                 (
+                    "/opt/StellaSDK/arm-google-android/usr/include",
+                    "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers",
+                    "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers"
+                );
+                "INFOPLIST_FILE" = "StellaTestCases/Resources/Info.plist";
+                "INSTALL_PATH" = "$(SOURCE_ROOT)/$(PRODUCT_NAME)-android/jni";
+                "LIBRARY_SEARCH_PATHS" =                 (
+                    "/opt/StellaSDK/arm-google-android/usr/lib",
+                    "/opt/StellaSDK/arm-google-android/System/Library/Frameworks"
+                );
+                "OTHER_CFLAGS" =                 (
+                    "-stella_target",
+                    "arm-google-android",
+                    "-D__STELLA_NANDROID",
+                    "-D__STELLA_VERSION_MAX_ALLOWED"
+                );
+                "OTHER_LDFLAGS" =                 (
+                    "-stella_target",
+                    "arm-google-android",
+                    "-lm",
+                    "-llog",
+                    "-landroid",
+                    "-lGLESv1_CM",
+                    "-lFoundation",
+                    "-lStellaGraphics",
+                    "-lStellaKit",
+                    "-Wl,--no-undefined",
+                    "-lopenal",
+                    "-lStellaMedia",
+                    "-lcocos2d"
+                );
+                "PRODUCT_NAME" = "$(TARGET_NAME)";
+                SDKROOT = macosx;
+                "WRAPPER_EXTENSION" = app;
+            };
+            isa = XCBuildConfiguration;
+            name = Debug;
+        };
+        E8F5F06F1616DD2100E88A97 =         {
+            buildSettings =             {
+                "EXECUTABLE_EXTENSION" = so;
+                "EXECUTABLE_PREFIX" = lib;
+                "FRAMEWORK_SEARCH_PATHS" = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks";
+                "HEADER_SEARCH_PATHS" =                 (
+                    "/opt/StellaSDK/arm-google-android/usr/include",
+                    "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/cocos2d.framework/Headers",
+                    "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/StellaMedia.framework/Headers"
+                );
+                "INFOPLIST_FILE" = "StellaTestCases/Resources/Info.plist";
+                "INSTALL_PATH" = "$(SOURCE_ROOT)/$(PRODUCT_NAME)-android/jni";
+                "LIBRARY_SEARCH_PATHS" =                 (
+                    "/opt/StellaSDK/arm-google-android/usr/lib",
+                    "/opt/StellaSDK/arm-google-android/System/Library/Frameworks"
+                );
+                "OTHER_CFLAGS" =                 (
+                    "-stella_target",
+                    "arm-google-android",
+                    "-D__STELLA_NANDROID",
+                    "-D__STELLA_VERSION_MAX_ALLOWED"
+                );
+                "OTHER_LDFLAGS" =                 (
+                    "-stella_target",
+                    "arm-google-android",
+                    "-lm",
+                    "-llog",
+                    "-landroid",
+                    "-lGLESv1_CM",
+                    "-lFoundation",
+                    "-lStellaGraphics",
+                    "-lStellaKit",
+                    "-Wl,--no-undefined",
+                    "-lopenal",
+                    "-lStellaMedia",
+                    "-lcocos2d",
+                    "-s"
+                );
+                "PRODUCT_NAME" = "$(TARGET_NAME)";
+                SDKROOT = macosx;
+                "VALIDATE_PRODUCT" = YES;
+                "WRAPPER_EXTENSION" = app;
+            };
+            isa = XCBuildConfiguration;
+            name = Release;
+        };
+        c25f9e6d7bbecfbf90830846 =         {
+            fileRef = e6f623214e08bb8fe89c25ce;
+            isa = PBXBuildFile;
+        };
+        c4c3c571baff7de518e1a772 =         {
+            buildActionMask = 2147483647;
+            dstPath = "$(SOURCE_ROOT)/$(PRODUCT_NAME)-android/assets/Resources";
+            dstSubfolderSpec = 0;
+            files =             (
+                E8F5EF121616DD1F00E88A97,
+                E8F5EF141616DD1F00E88A97,
+                E8F5EF161616DD1F00E88A97,
+                E8F5EF181616DD1F00E88A97,
+                E8F5EF1A1616DD1F00E88A97,
+                E8F5EF1C1616DD1F00E88A97,
+                E8F5EF1E1616DD1F00E88A97,
+                E8F5EF201616DD1F00E88A97,
+                E8F5EF231616DD1F00E88A97
+            );
+            isa = PBXCopyFilesBuildPhase;
+            name = "Copy Files (assets)";
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        d407dd75c3e587f091f29d69 =         {
+            fileRef = d96bed0fb3eeacff6139c37f;
+            isa = PBXBuildFile;
+        };
+        d96bed0fb3eeacff6139c37f =         {
+            isa = PBXFileReference;
+            lastKnownFileType = "sourcecode.c.objc";
+            name = "android-main.m";
+            path = "/opt/StellaSDK/share/android/jni/android-main.m";
+            sourceTree = "<absolute>";
+        };
+        dc24f37930704fc420a09737 =         {
+            fileRef = ec627326f1255e11617930b9;
+            isa = PBXBuildFile;
+        };
+        e130444b9d1037ddd3abf8aa =         {
+            children =             (
+                0820fe3515f49620b9f5d5cb,
+                49677deffccd644d82d66d3d,
+                69ab7802605e0ec5b0415ffe
+            );
+            isa = PBXGroup;
+            name = "External frameworks";
+            sourceTree = "<group>";
+        };
+        e37c05cb8f426807403ece23 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libStellaGraphics.so";
+            path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaGraphics.so";
+            sourceTree = "<absolute>";
+        };
+        e656c59691b08d3a8aec1f95 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libStellaKit.so";
+            path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaKit.so";
+            sourceTree = "<absolute>";
+        };
+        e6f623214e08bb8fe89c25ce =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libcocos2d.so";
+            path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libcocos2d.so";
+            sourceTree = "<absolute>";
+        };
+        ec627326f1255e11617930b9 =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libopenal.so";
+            path = "/opt/StellaSDK/arm-google-android/usr/lib/libopenal.so";
+            sourceTree = "<absolute>";
+        };
+        f92d86656634d4ce0b7bedce =         {
+            isa = PBXFileReference;
+            lastKnownFileType = file;
+            name = "libStellaMedia.so";
+            path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaMedia.so";
+            sourceTree = "<absolute>";
+        };
+        ff79d10ee6952be3f5970842 =         {
+            fileRef = 0d49550fbe63dd4b9c0b6098;
+            isa = PBXBuildFile;
+        };
+    };
+    rootObject = E8F5EEF21616DD1F00E88A97;
+}
